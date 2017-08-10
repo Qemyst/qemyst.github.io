@@ -1,6 +1,6 @@
 @media screen and (max-width: 1200px) {
     .coming-soon {
-        margin-top: 90px;
+        margin-top: 100px !important;
     }
 
     .social-list {
@@ -19,7 +19,7 @@
         width: 100%;
         content: " ";
         height: 100%;
-        position: absolute;
+        position: fixed;
         background: rgba(0, 0, 0, 0.51);
         right: 0px;
     }
