@@ -31,26 +31,39 @@ h1 {
     color: #3498db;
 }
 
-a {
+.coming-soon h1 a {
     text-decoration: none;
     /* color: azure; */
     color: #3498db;
 }
 
-a:hover {
+.coming-soon h1 {
+    padding-bottom: 20px;
+}
+
+/*.coming-soon h1 a:hover {
     border: solid 3px rgba(52, 152, 219, 0.71);
     padding: 12px;
 }
+*/
 
 .coming-soon {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
-.coming-soon h2 {
+.test-info__main-text {
     font-size: 55px;
     line-height: 60px;
     padding: 15px 30px;
-    border: solid 4px #fff;
+    border: solid 2px #fff;
     display: inline-block;
+}
+
+.social-list {
+    padding-top: 10px;
+}
+
+.social-list img{
+    padding: 0 10px;
 }
