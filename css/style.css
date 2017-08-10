@@ -1,3 +1,13 @@
+@media screen and (max-width: 1200px) {
+  .coming-soon {
+      margin-top: 90px;
+  }
+
+  .social-list {
+        padding-bottom: 100%;
+    }
+}
+
 .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -66,10 +76,4 @@ h1 {
 
 .social-list img{
     padding: 0 10px;
-}
-
-@media screen and (max-width: 1200px) {
-  .coming-soon {
-      margin-top: 90px;
-  }
 }
