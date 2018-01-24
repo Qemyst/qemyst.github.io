@@ -6,20 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE = edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="keywords" content="">
+    <link rel="shortcut icon" href="static/img/general/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="static/css/main.css"><!--[if lt IE 9]>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
     <body>
       <div class="wrapper">
         <header>
           <div class="container">
-            <div class="logo header-logo"><span>ШЕПЯЦКИЙ КОНСТАНТИН</span></div>
+            <div class="logo header-logo"><span><a href="#top">ШЕПЯЦКИЙ КОНСТАНТИН</a></span></div>
             <nav class="main-nav">
               <div class="nav-mobile"><span class="nav-mobile__line nav-mobile__line--top"></span><span class="nav-mobile__line nav-mobile__line--middle"></span><span class="nav-mobile__line nav-mobile__line--bottom"></span></div>
               <ul class="main-nav__list">
-                <li><a href="javascript:void(0);">Главная</a></li>
-                <li><a href="javascript:void(0);">Услуги</a></li>
-                <li><a href="javascript:void(0);">Обо мне</a></li>
-                <li><a class="line" href="javascript:void(0);">Контакты</a></li>
+                <li><a class="scroll-link" href="#top">Главная</a></li>
+                <li><a class="scroll-link" href="#services">Услуги</a></li>
+                <li><a class="scroll-link" href="#about">Обо мне</a></li>
+                <li><a class="scroll-link line" href="#contacts">Контакты</a></li>
               </ul>
             </nav>
           </div>
@@ -45,7 +46,7 @@
             </div>
           </div>
         </section>
-        <section class="services">
+        <section class="services" id="services">
           <div class="container">
             <div class="services-main">
               <h1 class="services-main__title">Услуги</h1>
@@ -92,7 +93,7 @@
             </div>
           </div>
         </section>
-        <section class="about-us">
+        <section class="about-us" id="about">
           <div class="container">
             <div class="about-us-main">
               <h1 class="about-us-main__title">Обо мне</h1>
@@ -107,7 +108,7 @@
             </div>
           </div>
         </section>
-        <section class="contacts">
+        <section class="contacts" id="contacts">
           <div class="container">
             <div class="contacts-main">
               <h1 class="contacts-title">Контакты</h1>
@@ -133,7 +134,7 @@
           </div>
         </section>
         <footer>
-          <div class="container"><a class="footer-advokat" href="javascript:void(0);">© Шепяцкий К. Л.</a><span>Разработка сайта -<a class="footer-developed" href="javascript:void(0);">Иван Лангуев</a></span></div>
+          <div class="container"><a class="footer-advokat" href="#top">© Шепяцкий К. Л.</a><span class="developer">Разработка сайта - <a class="footer-developed" href="https://vk.com/qemyst" target="_blank">Иван Лангуев</a></span></div>
         </footer>
       </div>
       <script src="static/js/jquery.js"></script>
